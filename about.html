@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zwykły Inwestor</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background: #5CC1B4;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+      color: white;
+    }
+   header img {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+    /* Styl dla paska nawigacyjnego */
+    nav {
+      background: #7CB5AE; /* Nieco ciemniejszy odcień zieleni */
+      padding: 0.8rem 0;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex; /* Elementy obok siebie */
+      justify-content: center; /* Wyśrodkowanie */
+      flex-wrap: wrap; /* Zawijanie elementów na mniejszych ekranach */
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 5px 10px;
+      transition: background-color 0.3s ease;
+      border-radius: 4px;
+    }
+    nav ul li a:hover,
+    nav ul li a:focus {
+      background-color: rgba(255,255,255,0.2); /* Lekko przezroczyste tło przy najechaniu */
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      line-height: 1.7;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    section h2 {
+      color: #222;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    /* Styl dla wpisów blogowych */
+    .blog-post {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      margin-bottom: 2rem;
+    }
+    .blog-post h2 {
+      border-bottom: none;
+      margin-top: 0;
+      color: #8CCEBF; /* Kolor nagłówka wpisu */
+    }
+    .blog-post .post-meta {
+      font-size: 0.9em;
+      color: #666;
+      margin-bottom: 1em;
+    }
+    .blog-post a.read-more {
+      display: inline-block;
+      margin-top: 1rem;
+      color: #8CCEBF;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .blog-post a.read-more:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background: #8CCEBF;
+      text-align: center;
+      font-size: 0.9rem;
+      color: white; 
+      padding: 2rem 0;
+      margin-top: 4rem; /* Odstęp od treści */
+    }
+  </style>
+</head>
+<body>
+  <header style="height:250px; overflow:hidden; position:relative">
+    <img src="banner.png" alt="Zwykły Inwestor - baner" style="
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         width: 70%;
+         height: auto;
+	 box-shadow:none;
+       ">
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Start</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="about.html">O mnie</a></li>
+      <li><a href="contact.html">Kontakt</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+        <section>
+      <h2>O mnie</h2>
+      <p>Cześć! Mam na imię Bernard i w świecie finansów istnieję od niedawna. Ale żebyśmy się źle nie zrozumieli - nie jestem doradcą, nie pracuję w banku, nie mam licencji maklera. Jestem zwykłym gościem pracującym na etacie, który chce zbudować sobie finansowe bezpieczeństwo na przyszłość. Na tej stronie będę dzielić się swoją drogą, przemyśleniami i błędami - żeby inni zwykli inwestorzy mogli uczyć się razem ze mną.</p>
+    </section>
+    
+    <section>
+      <h2>O projekcie</h2>
+      <p>Strona Zwykły Inwestor to miejsce, gdzie dzielę się swoją drogą w inwestowaniu. Bez skomplikowanych słów, bez ściemy - po prostu jako zwykły zjadacz chleba uczący się zarządzania swoimi pieniędzmi. Moim celem jest pokazać, że inwestowanie nie musi być trudne ani nudne.</p>
+    </section>
+
+    <section>
+      <h2>Dlaczego powstała ta strona?</h2>
+      <p>Bo widzę, jak wielu ludzi zniechęca się do inwestowania przez brak wiedzy z czym to się tak naprawdę je, przez zbyt trudny język, sprzedawców marzeń i nadmiar teorii. Chcę pokazać, że można to robić inaczej - z rozsądkiem, spokojem i autentycznie.</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Zwykły Inwestor
+  </footer>
+</body>
+</html>
